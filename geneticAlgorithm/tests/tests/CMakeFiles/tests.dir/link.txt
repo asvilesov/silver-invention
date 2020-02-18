@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/tests.dir/Catch.cpp.o CMakeFiles/tests.dir/StudentTests.cpp.o CMakeFiles/tests.dir/GradedTests.cpp.o  -o tests ../src/libsrc.a 

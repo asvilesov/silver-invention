@@ -1,9 +1,0 @@
-/home/alexander/Desktop/pa2-asvilesov/tests/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/CMakeFiles/main.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/CMakeFiles/edit_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/src/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/src/CMakeFiles/src.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/src/CMakeFiles/edit_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/tests/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/tests/CMakeFiles/tests.dir
-/home/alexander/Desktop/pa2-asvilesov/tests/tests/CMakeFiles/edit_cache.dir

@@ -14,3 +14,6 @@ cd ../bin
 Example:
 ./main ../input/locations.txt 64 500 30 12165465
 
+Results:
+You can check 'log.txt' in the /bin folder for one way to navigate through the locations in 'locations.txt' in a hopefully efficient manner.
+

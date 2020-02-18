@@ -1,6 +1,0 @@
-/home/alexander/Desktop/pa2-asvilesov/build/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/build/CMakeFiles/main.dir
-/home/alexander/Desktop/pa2-asvilesov/build/CMakeFiles/edit_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/build/src/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/pa2-asvilesov/build/src/CMakeFiles/src.dir
-/home/alexander/Desktop/pa2-asvilesov/build/src/CMakeFiles/edit_cache.dir
