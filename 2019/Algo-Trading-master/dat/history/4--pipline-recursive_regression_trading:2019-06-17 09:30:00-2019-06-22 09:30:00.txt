@@ -1,0 +1,3 @@
+time stock-price decision_max decision number-of-stocks portfolio-value
+960 193.94 -9 0 0 30048.07
+960 198.5 -9 0 0 30046.775

@@ -1,0 +1,1 @@
+time-hour stock-price avg-price-3-min avg-price-5-min average-volume current-volume number-of-stocks portfolio-value 570 215.22 215.0375 214.94700000000003 2382.6666666666665 806 25 30000.0

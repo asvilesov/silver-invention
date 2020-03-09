@@ -36,7 +36,7 @@ std::vector<Location> readLocations(std::string inputFile) {
 		file.close();
 	}
 	else {
-		std::cout << "error\n";
+		std::cout << "error\n"; 
 	}
 	return locationList;
 }
@@ -95,7 +95,7 @@ std::vector<std::pair<int, double>> fitnessCalculation(const Population& v, cons
 		to.push_back(distance);
 		count++;
 		return to;
-		});
+	});
 	count = 0;
 	//sum up the adjacent differences in every path to get the total distance
 	std::generate(distances.begin(), distances.end(), [&count, &adjDistances](){

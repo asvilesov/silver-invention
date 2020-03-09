@@ -1,0 +1,5 @@
+time stock-price decision number-of-stocks portfolio-value
+960 189.06 -1 50 30388.5
+960 188.48 -1 50 30403.75
+960 187.42 -5 50 30439.0
+960 189.45 1 0 30599.5
