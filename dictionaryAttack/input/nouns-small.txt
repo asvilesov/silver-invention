@@ -1,0 +1,10 @@
+time
+year
+people
+horse
+day
+battery
+correct
+woman
+staple
+child
