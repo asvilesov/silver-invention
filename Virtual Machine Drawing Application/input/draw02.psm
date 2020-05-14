@@ -1,0 +1,18 @@
+movi tx,20
+movi ty,50
+pendown
+movi r3,200
+fwd r3
+movi tr,90
+movi r4,100
+fwd r4
+movi r7,90
+add tr,tr,r7
+penup
+movi r5,100
+fwd r5
+add tr,tr,r7
+pendown
+movi r3,25
+back r3
+exit

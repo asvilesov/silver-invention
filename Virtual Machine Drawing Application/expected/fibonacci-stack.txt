@@ -1,0 +1,154 @@
+pc: 0 Stack: 
+pc: 1 Stack: 
+pc: 2 Stack: 
+pc: 3 Stack: 0 
+pc: 4 Stack: 0 
+pc: 5 Stack: 0 
+pc: 6 Stack: 0 
+pc: 2 Stack: 0 
+pc: 3 Stack: 0 0 
+pc: 4 Stack: 0 0 
+pc: 5 Stack: 0 0 
+pc: 6 Stack: 0 0 
+pc: 2 Stack: 0 0 
+pc: 3 Stack: 0 0 0 
+pc: 4 Stack: 0 0 0 
+pc: 5 Stack: 0 0 0 
+pc: 6 Stack: 0 0 0 
+pc: 2 Stack: 0 0 0 
+pc: 3 Stack: 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 0 0 0 0 
+pc: 2 Stack: 0 0 0 0 0 0 0 0 0 
+pc: 3 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 4 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 5 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 6 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 7 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 8 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 9 Stack: 0 0 0 0 0 0 0 0 0 0 
+pc: 10 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 11 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 12 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 13 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 14 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 15 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 16 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 17 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 18 Stack: 0 1 0 0 0 0 0 0 0 0 
+pc: 19 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 20 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 21 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 22 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 11 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 12 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 13 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 14 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 15 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 16 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 17 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 18 Stack: 0 1 1 0 0 0 0 0 0 0 
+pc: 19 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 20 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 21 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 22 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 11 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 12 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 13 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 14 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 15 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 16 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 17 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 18 Stack: 0 1 1 2 0 0 0 0 0 0 
+pc: 19 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 20 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 21 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 22 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 11 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 12 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 13 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 14 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 15 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 16 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 17 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 18 Stack: 0 1 1 2 3 0 0 0 0 0 
+pc: 19 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 20 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 21 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 22 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 11 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 12 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 13 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 14 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 15 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 16 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 17 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 18 Stack: 0 1 1 2 3 5 0 0 0 0 
+pc: 19 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 20 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 21 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 22 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 11 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 12 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 13 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 14 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 15 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 16 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 17 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 18 Stack: 0 1 1 2 3 5 8 0 0 0 
+pc: 19 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 20 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 21 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 22 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 11 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 12 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 13 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 14 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 15 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 16 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 17 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 18 Stack: 0 1 1 2 3 5 8 13 0 0 
+pc: 19 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 20 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 21 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 22 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 11 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 12 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 13 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 14 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 15 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 16 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 17 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 18 Stack: 0 1 1 2 3 5 8 13 21 0 
+pc: 19 Stack: 0 1 1 2 3 5 8 13 21 34 
+pc: 20 Stack: 0 1 1 2 3 5 8 13 21 34 
+pc: 21 Stack: 0 1 1 2 3 5 8 13 21 34 
+pc: 22 Stack: 0 1 1 2 3 5 8 13 21 34 
+pc: 23 Stack: 0 1 1 2 3 5 8 13 21 34 
+pc: 24 Stack: 0 1 1 2 3 5 8 13 21 34 

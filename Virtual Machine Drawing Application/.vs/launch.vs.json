@@ -1,0 +1,22 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "main.exe",
+      "name": "main.exe",
+      "currentDir": "${workspaceRoot}",
+      "args": []
+    },
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "tests.exe (tests\\tests.exe)",
+      "name": "tests.exe (tests\\tests.exe)",
+      "currentDir": "${workspaceRoot}",
+      "args": []
+    }
+  ]
+}

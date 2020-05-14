@@ -1,0 +1,11 @@
+movi r1,4
+jmp r1
+movi r3,10
+movi r4,-7
+movi r6,6
+movi r7,5
+dec r7
+cmplt r0,r7
+jt r6
+cmpeq r0,r7
+exit

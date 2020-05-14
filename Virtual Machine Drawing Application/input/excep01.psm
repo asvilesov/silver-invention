@@ -1,0 +1,8 @@
+movi sc,200
+movi ex,0
+movi r0,1337
+movi ex,0
+movi r1,10
+movi r2,11
+add r3,r2,r1
+exit

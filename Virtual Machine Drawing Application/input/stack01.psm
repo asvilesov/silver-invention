@@ -1,0 +1,20 @@
+movi r1,5
+movi r2,11
+movi r3,17
+push r3
+push r2
+push r1
+load r4,r0
+movi r7,22
+movi r6,1
+store r6,r7
+loadi r5,1
+storei 0,r2
+movi r7,1
+movi r6,50
+storesc r7,r6
+loadsc r5,r7
+pop r7
+pop r7
+pop r7
+exit

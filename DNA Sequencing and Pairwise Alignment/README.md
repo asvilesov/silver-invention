@@ -5,7 +5,7 @@ Project: DNA Sequencing and Global Pairwise Sequencing
 
 Instructions:
 
-1) cd build
+1) cd bin
 2) cmake ..
 3) make
 4) cd ../bin

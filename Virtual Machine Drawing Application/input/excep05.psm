@@ -1,0 +1,6 @@
+movi r1,17
+storesc r1,r2
+movi r2,20
+add r1,r1,r1
+add r1,r2,r1
+exit

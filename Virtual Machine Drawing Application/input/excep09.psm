@@ -1,0 +1,3 @@
+movi tc,10
+movi r1,22
+exit

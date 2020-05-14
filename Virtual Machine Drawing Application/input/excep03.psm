@@ -1,0 +1,5 @@
+loadi r1,50
+movi r2,20
+add r1,r1,r1
+add r1,r2,r1
+exit

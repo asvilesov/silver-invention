@@ -1,0 +1,6 @@
+movi tx,20
+movi ty,50
+pendown
+movi r3,150
+fwd r3
+exit

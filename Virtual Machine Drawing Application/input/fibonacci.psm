@@ -1,0 +1,24 @@
+movi r7,10
+mov r6,r0
+push r0
+inc r6
+cmplt r6,r7
+movi r5,2
+jt r5
+storei 0,r0
+movi r1,1
+storei 1,r1
+movi r6,2
+mov r5,r6
+dec r5
+mov r4,r5
+dec r4
+load r1,r4
+load r2,r5
+add r1,r1,r2
+store r6,r1
+inc r6
+cmplt r6,r7
+movi r5,11
+jt r5
+exit

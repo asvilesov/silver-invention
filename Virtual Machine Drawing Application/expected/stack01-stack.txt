@@ -1,0 +1,21 @@
+pc: 0 Stack: 
+pc: 1 Stack: 
+pc: 2 Stack: 
+pc: 3 Stack: 
+pc: 4 Stack: 17 
+pc: 5 Stack: 17 11 
+pc: 6 Stack: 17 11 5 
+pc: 7 Stack: 17 11 5 
+pc: 8 Stack: 17 11 5 
+pc: 9 Stack: 17 11 5 
+pc: 10 Stack: 17 22 5 
+pc: 11 Stack: 17 22 5 
+pc: 12 Stack: 11 22 5 
+pc: 13 Stack: 11 22 5 
+pc: 14 Stack: 11 22 5 
+pc: 15 Stack: 11 50 5 
+pc: 16 Stack: 11 50 5 
+pc: 17 Stack: 11 50 
+pc: 18 Stack: 11 
+pc: 19 Stack: 
+pc: 20 Stack: 

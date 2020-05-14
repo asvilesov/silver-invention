@@ -1,0 +1,9 @@
+movi r1,10
+movi r2,5
+mov r3,r1
+sub r4,r1,r2
+mul r5,r1,r2
+div r6,r1,r2
+inc r1
+dec r2
+exit

@@ -1,0 +1,5 @@
+movi r1,5
+movi r2,20
+add r3,r1,r2
+add r3,r3,r1
+exit

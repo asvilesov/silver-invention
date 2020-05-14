@@ -1,0 +1,16 @@
+movi tx,110
+movi ty,105
+movi tc,1
+pendown
+mov r7,r0
+movi r6,5
+movi r1,100
+movi r2,144
+fwd r1
+add tr,tr,r2
+inc tc
+inc r7
+cmplt r7,r6
+movi r5,6
+jt r5
+exit

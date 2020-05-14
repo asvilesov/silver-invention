@@ -1,0 +1,10 @@
+movi r1,2147483647
+movi r2,100
+add r3,r2,r1
+movi ex,0
+mul r3,r2,r1
+movi ex,0
+movi r2,-365
+sub r3,r2,r1
+movi ex,0
+exit

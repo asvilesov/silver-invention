@@ -1,0 +1,20 @@
+movi tx,10
+movi ty,10
+movi tc,6
+pendown
+movi r7,10
+movi r1,220
+movi r2,90
+fwd r1
+add tr,tr,r2
+fwd r1
+add tr,tr,r2
+fwd r1
+add tr,tr,r2
+sub r1,r1,r7
+fwd r1
+add tr,tr,r2
+cmplt r7,r1
+movi r5,7
+jt r5
+exit
