@@ -1,0 +1,22 @@
+NC_000085.6 Mus musculus strain C57BL/6J chromosome 19, GRCm38.p6 C57BL/6J
+Total amino acids produced: 10230756
+(A) Alanine: 462079
+(C) Cysteine: 382831
+(D) Aspartic acid: 248439
+(E) Glutamic acid: 402351
+(F) Phenylalanine: 518254
+(G) Glycine: 565455
+(H) Histidine: 362836
+(I) Isoleucine: 532298
+(K) Lysine: 533319
+(L) Leucine: 1127764
+(M) Methionine: 681582
+(N) Asparagine: 351447
+(P) Proline: 557394
+(Q) Glutamine: 397787
+(R) Arginine: 528477
+(S) Serine: 957486
+(T) Threonine: 557980
+(V) Valine: 566144
+(W) Tryptophan: 195192
+(Y) Tyrosine: 301641

@@ -1,0 +1,22 @@
+gi|345478724:5001-91267 Homo sapiens APOBEC1 complementation factor (A1CF), RefSeqGene on chromosome 10
+Total amino acids produced: 14441
+(A) Alanine: 523
+(C) Cysteine: 486
+(D) Aspartic acid: 315
+(E) Glutamic acid: 492
+(F) Phenylalanine: 945
+(G) Glycine: 638
+(H) Histidine: 472
+(I) Isoleucine: 1048
+(K) Lysine: 933
+(L) Leucine: 1599
+(M) Methionine: 1094
+(N) Asparagine: 669
+(P) Proline: 629
+(Q) Glutamine: 540
+(R) Arginine: 610
+(S) Serine: 1264
+(T) Threonine: 755
+(V) Valine: 687
+(W) Tryptophan: 198
+(Y) Tyrosine: 544

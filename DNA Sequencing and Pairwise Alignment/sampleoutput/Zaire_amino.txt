@@ -1,0 +1,22 @@
+gi|10313991|ref|NC_002549.1| Zaire ebolavirus isolate Ebola virus/H.sapiens-tc/COD/1976/Yambuku-Mayinga, complete genome
+Total amino acids produced: 5046
+(A) Alanine: 281
+(C) Cysteine: 92
+(D) Aspartic acid: 245
+(E) Glutamic acid: 262
+(F) Phenylalanine: 235
+(G) Glycine: 258
+(H) Histidine: 151
+(I) Isoleucine: 326
+(K) Lysine: 288
+(L) Leucine: 537
+(M) Methionine: 141
+(N) Asparagine: 237
+(P) Proline: 260
+(Q) Glutamine: 260
+(R) Arginine: 262
+(S) Serine: 384
+(T) Threonine: 354
+(V) Valine: 258
+(W) Tryptophan: 66
+(Y) Tyrosine: 149

@@ -1,0 +1,22 @@
+gi|228480242:5001-5996 Homo sapiens taste receptor, type 2, member 16 (TAS2R16), RefSeqGene on chromosome 7
+Total amino acids produced: 291
+(A) Alanine: 12
+(C) Cysteine: 8
+(D) Aspartic acid: 3
+(E) Glutamic acid: 6
+(F) Phenylalanine: 24
+(G) Glycine: 7
+(H) Histidine: 9
+(I) Isoleucine: 33
+(K) Lysine: 8
+(L) Leucine: 46
+(M) Methionine: 11
+(N) Asparagine: 11
+(P) Proline: 8
+(Q) Glutamine: 11
+(R) Arginine: 12
+(S) Serine: 23
+(T) Threonine: 23
+(V) Valine: 18
+(W) Tryptophan: 10
+(Y) Tyrosine: 8
