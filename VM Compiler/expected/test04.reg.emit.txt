@@ -1,0 +1,10 @@
+push r0
+movi r1,5
+storei 0,r1
+loadi r1,0
+inc r1
+storei 0,r1
+loadi r1,0
+dec r1
+storei 0,r1
+exit

@@ -1,0 +1,57 @@
+Program
+--Data
+----VarDecl: abc
+----ArrayDecl: myarr
+------Numeric: 5
+--Block
+----AssignVarStmt: abc
+------NumericExpr
+--------Numeric: 20
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 0
+------BinaryExpr: +
+--------VarExpr: abc
+--------NumericExpr
+----------Numeric: 0
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 1
+------BinaryExpr: -
+--------VarExpr: abc
+--------NumericExpr
+----------Numeric: 1
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 2
+------BinaryExpr: *
+--------VarExpr: abc
+--------NumericExpr
+----------Numeric: 2
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 3
+------BinaryExpr: /
+--------VarExpr: abc
+--------NumericExpr
+----------Numeric: 3
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 4
+------BinaryExpr: +
+--------NumericExpr
+----------Numeric: 20
+--------BinaryExpr: *
+----------VarExpr: abc
+----------NumericExpr
+------------Numeric: 4
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 0
+------BinaryExpr: +
+--------ArrayExpr: myarr
+----------NumericExpr
+------------Numeric: 1
+--------ArrayExpr: myarr
+----------NumericExpr
+------------Numeric: 2

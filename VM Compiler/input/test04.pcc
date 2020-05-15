@@ -1,0 +1,9 @@
+// Testing variables, assignment, increment/decrement
+data {
+	var temp;
+}
+main {
+	temp = 5;
+	++temp;
+	--temp;
+}

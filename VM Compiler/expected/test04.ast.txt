@@ -1,0 +1,9 @@
+Program
+--Data
+----VarDecl: temp
+--Block
+----AssignVarStmt: temp
+------NumericExpr
+--------Numeric: 5
+----IncStmt: temp
+----DecStmt: temp

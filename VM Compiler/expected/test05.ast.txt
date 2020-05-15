@@ -1,0 +1,38 @@
+Program
+--Data
+----VarDecl: abc
+----VarDecl: x
+----ArrayDecl: myarr
+------Numeric: 5
+--Block
+----AssignVarStmt: abc
+------NumericExpr
+--------Numeric: 20
+----AssignArrayStmt: myarr
+------NumericExpr
+--------Numeric: 0
+------NumericExpr
+--------Numeric: 20
+----IfStmt (no else)
+------Comparison: ==
+--------VarExpr: abc
+--------ArrayExpr: myarr
+----------NumericExpr
+------------Numeric: 0
+------Block
+--------AssignVarStmt: abc
+----------NumericExpr
+------------Numeric: 15
+----IfStmt (with else)
+------Comparison: <
+--------VarExpr: abc
+--------NumericExpr
+----------Numeric: 37
+------Block
+--------AssignVarStmt: x
+----------NumericExpr
+------------Numeric: 1
+------Block
+--------AssignVarStmt: x
+----------NumericExpr
+------------Numeric: 0

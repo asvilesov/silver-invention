@@ -1,0 +1,25 @@
+Program
+--Data
+----VarDecl: x
+----VarDecl: count
+----ArrayDecl: myarr
+------Numeric: 5
+--Block
+----AssignVarStmt: count
+------NumericExpr
+--------Numeric: 5
+----AssignVarStmt: x
+------NumericExpr
+--------Numeric: 0
+----WhileStmt
+------Comparison: <
+--------VarExpr: x
+--------VarExpr: count
+------Block
+--------AssignArrayStmt: myarr
+----------VarExpr: x
+----------BinaryExpr: *
+------------VarExpr: x
+------------NumericExpr
+--------------Numeric: 5
+--------IncStmt: x

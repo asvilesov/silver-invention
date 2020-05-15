@@ -1,0 +1,41 @@
+push r0
+push r0
+push r0
+push r0
+push r0
+push r0
+push r0
+push r0
+movi r1,5
+storei 1,r1
+movi r1,0
+storei 0,r1
+movi r1,100
+storei 2,r1
+movi r1,110
+movi r2,105
+mov tx,r1
+mov ty,r2
+pendown
+loadi r1,0
+loadi r2,1
+cmplt r1,r2
+movi r1,37
+jnt r1
+loadi r1,0
+movi r2,1
+add r1,r1,r2
+mov tc,r1
+loadi r1,2
+fwd r1
+movi r1,144
+add tr,tr,r1
+loadi r1,0
+inc r1
+storei 0,r1
+movi r1,19
+jmp r1
+penup
+movi r1,0
+back r1
+exit

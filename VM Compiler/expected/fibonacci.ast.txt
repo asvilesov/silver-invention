@@ -1,0 +1,42 @@
+Program
+--Data
+----VarDecl: count
+----VarDecl: i
+----ArrayDecl: fib
+------Numeric: 10
+--Block
+----AssignVarStmt: count
+------NumericExpr
+--------Numeric: 10
+----AssignVarStmt: i
+------NumericExpr
+--------Numeric: 2
+----AssignArrayStmt: fib
+------NumericExpr
+--------Numeric: 0
+------NumericExpr
+--------Numeric: 0
+----AssignArrayStmt: fib
+------NumericExpr
+--------Numeric: 1
+------NumericExpr
+--------Numeric: 1
+----WhileStmt
+------Comparison: <
+--------VarExpr: i
+--------VarExpr: count
+------Block
+--------AssignArrayStmt: fib
+----------VarExpr: i
+----------BinaryExpr: +
+------------ArrayExpr: fib
+--------------BinaryExpr: -
+----------------VarExpr: i
+----------------NumericExpr
+------------------Numeric: 1
+------------ArrayExpr: fib
+--------------BinaryExpr: -
+----------------VarExpr: i
+----------------NumericExpr
+------------------Numeric: 2
+--------IncStmt: i

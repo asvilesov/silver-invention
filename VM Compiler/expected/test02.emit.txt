@@ -1,0 +1,16 @@
+push r0
+movi %0,10
+movi %1,5
+add %2,%0,%1
+storei 0,%2
+loadi %3,0
+movi %4,2
+mul %5,%3,%4
+storei 0,%5
+loadi %6,0
+movi %7,20
+add %8,%6,%7
+movi %9,3
+div %10,%8,%9
+storei 0,%10
+exit

@@ -1,0 +1,27 @@
+// Testing while loop
+data {
+	var i;
+	var sides;
+	var starSize;
+	array myarr[5];
+}
+main {
+	sides = 5;
+	i = 0;
+	starSize = 100;
+	
+	// Set position and turn on pen
+	setPosition(110, 105);
+	penDown();
+	
+	while i < sides {
+		setColor(i + 1);
+		forward(starSize);
+		rotate(144);
+		++i;
+	}
+	
+	// Just to use all commands
+	penUp();
+	back(0);
+}

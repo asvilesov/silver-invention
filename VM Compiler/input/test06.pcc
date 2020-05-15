@@ -1,0 +1,14 @@
+// Testing while loop
+data {
+	var x;
+	var count;
+	array myarr[5];
+}
+main {
+	count = 5;
+	x = 0;
+	while x < count {
+		myarr[x] = x * 5;
+		++x;
+	}
+}

@@ -1,0 +1,43 @@
+Program
+--Data
+----VarDecl: i
+----VarDecl: sides
+----VarDecl: starSize
+----ArrayDecl: myarr
+------Numeric: 5
+--Block
+----AssignVarStmt: sides
+------NumericExpr
+--------Numeric: 5
+----AssignVarStmt: i
+------NumericExpr
+--------Numeric: 0
+----AssignVarStmt: starSize
+------NumericExpr
+--------Numeric: 100
+----SetPosStmt
+------NumericExpr
+--------Numeric: 110
+------NumericExpr
+--------Numeric: 105
+----PenDownStmt
+----WhileStmt
+------Comparison: <
+--------VarExpr: i
+--------VarExpr: sides
+------Block
+--------SetColorStmt
+----------BinaryExpr: +
+------------VarExpr: i
+------------NumericExpr
+--------------Numeric: 1
+--------FwdStmt
+----------VarExpr: starSize
+--------RotStmt
+----------NumericExpr
+------------Numeric: 144
+--------IncStmt: i
+----PenUpStmt
+----BackStmt
+------NumericExpr
+--------Numeric: 0

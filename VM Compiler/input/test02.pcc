@@ -1,0 +1,9 @@
+// Testing variables, expressions, assignment statements
+data {
+	var x;
+}
+main {
+	x = 10 + 5;
+	x = x * 2;
+	x = (x + 20) / 3;
+}

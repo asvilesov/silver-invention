@@ -1,0 +1,19 @@
+// Testing if statement
+data {
+	var abc;
+	var x;
+	array myarr[5];
+}
+main {
+	abc = 20;
+	myarr[0] = 20;
+	if abc == myarr[0] {
+		abc = 15;
+	}
+	
+	if abc < 37 {
+		x = 1;
+	} else {
+		x = 0;
+	}
+}

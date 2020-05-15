@@ -1,0 +1,19 @@
+// Fibonacci numbers test
+data {
+	var count;
+	var i;
+	array fib[10];
+}
+main {
+	// Initialize variables
+	count = 10;
+	i = 2;
+	// Initialize base cases
+	fib[0] = 0;
+	fib[1] = 1;
+	while i < count {
+		// fibonacci of i is previous 2 summed
+		fib[i] = fib[i - 1] + fib[i - 2];
+		++i;
+	}
+}

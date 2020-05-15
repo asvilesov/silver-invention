@@ -1,0 +1,23 @@
+Program
+--Data
+----VarDecl: x
+--Block
+----AssignVarStmt: x
+------BinaryExpr: +
+--------NumericExpr
+----------Numeric: 10
+--------NumericExpr
+----------Numeric: 5
+----AssignVarStmt: x
+------BinaryExpr: *
+--------VarExpr: x
+--------NumericExpr
+----------Numeric: 2
+----AssignVarStmt: x
+------BinaryExpr: /
+--------BinaryExpr: +
+----------VarExpr: x
+----------NumericExpr
+------------Numeric: 20
+--------NumericExpr
+----------Numeric: 3
