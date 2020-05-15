@@ -1,0 +1,784 @@
+{
+	"info": {
+		"_postman_id": "5befa4e3-dead-4157-8bf0-24a97ea81b91",
+		"name": "pa7-tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ID test (tt0092099)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0092099\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Top Gun\");",
+							"    pm.expect(jsonData.Runtime).to.eql(110);",
+							"    pm.expect(jsonData.Year).to.eql(1986);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0092099/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0092099",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0092099"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0076759)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0076759\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Star Wars: Episode IV - A New Hope\");",
+							"    pm.expect(jsonData.Runtime).to.eql(121);",
+							"    pm.expect(jsonData.Year).to.eql(1977);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0076759/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0076759",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0076759"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt1727824)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt1727824\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Bohemian Rhapsody\");",
+							"    pm.expect(jsonData.Runtime).to.eql(134);",
+							"    pm.expect(jsonData.Year).to.eql(2018);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt1727824/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt1727824",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt1727824"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt4123430)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt4123430\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Fantastic Beasts: The Crimes of Grindelwald\");",
+							"    pm.expect(jsonData.Runtime).to.eql(134);",
+							"    pm.expect(jsonData.Year).to.eql(2018);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt4123430/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt4123430",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt4123430"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0209144)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0209144\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Memento\");",
+							"    pm.expect(jsonData.Runtime).to.eql(113);",
+							"    pm.expect(jsonData.Year).to.eql(2000);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0209144/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0209144",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0209144"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0047478)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0047478\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Seven Samurai\");",
+							"    pm.expect(jsonData.Runtime).to.eql(207);",
+							"    pm.expect(jsonData.Year).to.eql(1954);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0047478/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0047478",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0047478"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0211915)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0211915\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Amélie\");",
+							"    pm.expect(jsonData.Runtime).to.eql(122);",
+							"    pm.expect(jsonData.Year).to.eql(2001);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0211915/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0211915",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0211915"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0062229)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0062229\");",
+							"    pm.expect(jsonData.Title).to.eql(\"Le Samouraï\");",
+							"    pm.expect(jsonData.Runtime).to.eql(105);",
+							"    pm.expect(jsonData.Year).to.eql(1967);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0062229/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0062229",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0062229"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0118530)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.ID).to.eql(\"tt0118530\");",
+							"    pm.expect(jsonData.Title).to.eql(\"18\");",
+							"    pm.expect(jsonData.Runtime).to.eql(0);",
+							"    pm.expect(jsonData.Year).to.eql(0);",
+							"    pm.expect(jsonData.URL).to.eql(\"https://www.imdb.com/title/tt0118530/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0118530",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0118530"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID test (tt0000000) - Does not exist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5dd421e7-df65-4f4a-9bca-d7650f267a48",
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.Error).to.eql(\"No movie with that ID found\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/id/tt0000000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"id",
+						"tt0000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Name test (Top Gun)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f34576e3-c243-4a8d-bd36-7c8910a113b4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(2);",
+							"    // Top Gun (1955)",
+							"    pm.expect(jsonData[0].ID).to.eql(\"tt0048734\");",
+							"    pm.expect(jsonData[0].Title).to.eql(\"Top Gun\");",
+							"    pm.expect(jsonData[0].Runtime).to.eql(73);",
+							"    pm.expect(jsonData[0].Year).to.eql(1955);",
+							"    pm.expect(jsonData[0].URL).to.eql(\"https://www.imdb.com/title/tt0048734/\");",
+							"    // Top Gun (1986)",
+							"    pm.expect(jsonData[1].ID).to.eql(\"tt0092099\");",
+							"    pm.expect(jsonData[1].Title).to.eql(\"Top Gun\");",
+							"    pm.expect(jsonData[1].Runtime).to.eql(110);",
+							"    pm.expect(jsonData[1].Year).to.eql(1986);",
+							"    pm.expect(jsonData[1].URL).to.eql(\"https://www.imdb.com/title/tt0092099/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/name/Top Gun",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"name",
+						"Top Gun"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Name test (Titanic)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f34576e3-c243-4a8d-bd36-7c8910a113b4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(6);",
+							"    // Titanic (1943)",
+							"    pm.expect(jsonData[0].ID).to.eql(\"tt0036443\");",
+							"    pm.expect(jsonData[0].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[0].Runtime).to.eql(85);",
+							"    pm.expect(jsonData[0].Year).to.eql(1943);",
+							"    pm.expect(jsonData[0].URL).to.eql(\"https://www.imdb.com/title/tt0036443/\");",
+							"    // Titanic (1953)",
+							"    pm.expect(jsonData[1].ID).to.eql(\"tt0046435\");",
+							"    pm.expect(jsonData[1].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[1].Runtime).to.eql(98);",
+							"    pm.expect(jsonData[1].Year).to.eql(1953);",
+							"    pm.expect(jsonData[1].URL).to.eql(\"https://www.imdb.com/title/tt0046435/\");",
+							"    // Titanic (1997)",
+							"    pm.expect(jsonData[2].ID).to.eql(\"tt0120338\");",
+							"    pm.expect(jsonData[2].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[2].Runtime).to.eql(194);",
+							"    pm.expect(jsonData[2].Year).to.eql(1997);",
+							"    pm.expect(jsonData[2].URL).to.eql(\"https://www.imdb.com/title/tt0120338/\");",
+							"    // Titanic (1915)",
+							"    pm.expect(jsonData[3].ID).to.eql(\"tt0155274\");",
+							"    pm.expect(jsonData[3].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[3].Runtime).to.eql(0);",
+							"    pm.expect(jsonData[3].Year).to.eql(1915);",
+							"    pm.expect(jsonData[3].URL).to.eql(\"https://www.imdb.com/title/tt0155274/\");",
+							"    // Titanic (2012)",
+							"    pm.expect(jsonData[4].ID).to.eql(\"tt2495766\");",
+							"    pm.expect(jsonData[4].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[4].Runtime).to.eql(0);",
+							"    pm.expect(jsonData[4].Year).to.eql(2012);",
+							"    pm.expect(jsonData[4].URL).to.eql(\"https://www.imdb.com/title/tt2495766/\");",
+							"     // Titanic (2018)",
+							"    pm.expect(jsonData[5].ID).to.eql(\"tt8852130\");",
+							"    pm.expect(jsonData[5].Title).to.eql(\"Titanic\");",
+							"    pm.expect(jsonData[5].Runtime).to.eql(115);",
+							"    pm.expect(jsonData[5].Year).to.eql(2018);",
+							"    pm.expect(jsonData[5].URL).to.eql(\"https://www.imdb.com/title/tt8852130/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/name/Titanic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"name",
+						"Titanic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Name test (Dracula)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f34576e3-c243-4a8d-bd36-7c8910a113b4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(7);",
+							"    // Titanic (1931)",
+							"    pm.expect(jsonData[0].ID).to.eql(\"tt0021814\");",
+							"    pm.expect(jsonData[0].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[0].Runtime).to.eql(75);",
+							"    pm.expect(jsonData[0].Year).to.eql(1931);",
+							"    pm.expect(jsonData[0].URL).to.eql(\"https://www.imdb.com/title/tt0021814/\");",
+							"    // Dracula (1979)",
+							"    pm.expect(jsonData[1].ID).to.eql(\"tt0079073\");",
+							"    pm.expect(jsonData[1].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[1].Runtime).to.eql(109);",
+							"    pm.expect(jsonData[1].Year).to.eql(1979);",
+							"    pm.expect(jsonData[1].URL).to.eql(\"https://www.imdb.com/title/tt0079073/\");",
+							"    // Dracula (2019)",
+							"    pm.expect(jsonData[2].ID).to.eql(\"tt10025196\");",
+							"    pm.expect(jsonData[2].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[2].Runtime).to.eql(0);",
+							"    pm.expect(jsonData[2].Year).to.eql(2019);",
+							"    pm.expect(jsonData[2].URL).to.eql(\"https://www.imdb.com/title/tt10025196/\");",
+							"    // Dragula (2020)",
+							"    pm.expect(jsonData[3].ID).to.eql(\"tt11750002\");",
+							"    pm.expect(jsonData[3].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[3].Runtime).to.eql(42);",
+							"    pm.expect(jsonData[3].Year).to.eql(2020);",
+							"    pm.expect(jsonData[3].URL).to.eql(\"https://www.imdb.com/title/tt11750002/\");",
+							"    // Dracula (1999)",
+							"    pm.expect(jsonData[4].ID).to.eql(\"tt1319563\");",
+							"    pm.expect(jsonData[4].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[4].Runtime).to.eql(92);",
+							"    pm.expect(jsonData[4].Year).to.eql(1999);",
+							"    pm.expect(jsonData[4].URL).to.eql(\"https://www.imdb.com/title/tt1319563/\");",
+							"    // Dracula (0)",
+							"    pm.expect(jsonData[5].ID).to.eql(\"tt4007438\");",
+							"    pm.expect(jsonData[5].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[5].Runtime).to.eql(0);",
+							"    pm.expect(jsonData[5].Year).to.eql(0);",
+							"    pm.expect(jsonData[5].URL).to.eql(\"https://www.imdb.com/title/tt4007438/\");",
+							"     // Dracula (2016)",
+							"    pm.expect(jsonData[6].ID).to.eql(\"tt5842802\");",
+							"    pm.expect(jsonData[6].Title).to.eql(\"Dracula\");",
+							"    pm.expect(jsonData[6].Runtime).to.eql(82);",
+							"    pm.expect(jsonData[6].Year).to.eql(2016);",
+							"    pm.expect(jsonData[6].URL).to.eql(\"https://www.imdb.com/title/tt5842802/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/name/Dracula",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"name",
+						"Dracula"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Name test (Batman)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f34576e3-c243-4a8d-bd36-7c8910a113b4",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.length).to.eql(3);",
+							"    // Batman (1943)",
+							"    pm.expect(jsonData[0].ID).to.eql(\"tt0035665\");",
+							"    pm.expect(jsonData[0].Title).to.eql(\"Batman\");",
+							"    pm.expect(jsonData[0].Runtime).to.eql(260);",
+							"    pm.expect(jsonData[0].Year).to.eql(1943);",
+							"    pm.expect(jsonData[0].URL).to.eql(\"https://www.imdb.com/title/tt0035665/\");",
+							"    // Batman (1966)",
+							"    pm.expect(jsonData[1].ID).to.eql(\"tt0060153\");",
+							"    pm.expect(jsonData[1].Title).to.eql(\"Batman\");",
+							"    pm.expect(jsonData[1].Runtime).to.eql(105);",
+							"    pm.expect(jsonData[1].Year).to.eql(1966);",
+							"    pm.expect(jsonData[1].URL).to.eql(\"https://www.imdb.com/title/tt0060153/\");",
+							"    // Batman (1989)",
+							"    pm.expect(jsonData[2].ID).to.eql(\"tt0096895\");",
+							"    pm.expect(jsonData[2].Title).to.eql(\"Batman\");",
+							"    pm.expect(jsonData[2].Runtime).to.eql(126);",
+							"    pm.expect(jsonData[2].Year).to.eql(1989);",
+							"    pm.expect(jsonData[2].URL).to.eql(\"https://www.imdb.com/title/tt0096895/\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/name/Batman",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"name",
+						"Batman"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Name test (Blah) - Does not exist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f34576e3-c243-4a8d-bd36-7c8910a113b4",
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {",
+							"    pm.response.to.have.status(404);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"pm.test(\"JSON result is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.Error).to.eql(\"No movie by that name found\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:12345/movie/name/Blah",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "12345",
+					"path": [
+						"movie",
+						"name",
+						"Blah"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

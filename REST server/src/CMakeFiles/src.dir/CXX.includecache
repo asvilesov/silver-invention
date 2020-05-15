@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexander/Desktop/pa7-asvilesov/src/SrcMain.cpp
+SrcMain.h
+/home/alexander/Desktop/pa7-asvilesov/src/SrcMain.h
+
+/home/alexander/Desktop/pa7-asvilesov/src/SrcMain.h
+imdb.h
+/home/alexander/Desktop/pa7-asvilesov/src/imdb.h
+
+/home/alexander/Desktop/pa7-asvilesov/src/imdb.cpp
+imdb.h
+/home/alexander/Desktop/pa7-asvilesov/src/imdb.h
+
+/home/alexander/Desktop/pa7-asvilesov/src/imdb.h
+cpprest/asyncrt_utils.h
+/home/alexander/Desktop/pa7-asvilesov/src/cpprest/asyncrt_utils.h
+cpprest/http_listener.h
+/home/alexander/Desktop/pa7-asvilesov/src/cpprest/http_listener.h
+cpprest/json.h
+/home/alexander/Desktop/pa7-asvilesov/src/cpprest/json.h
+cpprest/uri.h
+/home/alexander/Desktop/pa7-asvilesov/src/cpprest/uri.h
+algorithm
+-
+fstream
+-
+iostream
+-
+random
+-
+sstream
+-
+string
+-
+vector
+-
+
